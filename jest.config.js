@@ -1,4 +1,4 @@
-import { ConsoleStripper, MyVisitor } from './src/plugin';
+import { MyVisitor} from './src/plugin.js'
 
 export default {
     testEnvironment: 'node',
@@ -11,9 +11,9 @@ export default {
                 target: "es2021",
                 "keepClassNames": false
             },
-            plugin: (m: any) => {
+            plugin: (m) => {
                 console.log(m, '???');
-                return new ConsoleStripper().visitProgram(m);
+                return new MyVisitor().visitProgram(m);
             },
         }],
     },
