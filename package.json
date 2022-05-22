@@ -1,0 +1,19 @@
+{
+  "name": "swc-plugin-fun",
+  "version": "1.0.0",
+  "description": "I am just trying to build a plugin for swc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uittorio/swc-plugin-fun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uittorio/swc-plugin-fun/issues"
+  },
+  "homepage": "https://github.com/uittorio/swc-plugin-fun#readme"
+}
