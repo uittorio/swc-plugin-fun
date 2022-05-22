@@ -5,4 +5,9 @@ export class MyVisitor extends Visitor {
         console.log("called")
         return node;
     }
+
+    visitTsType(node) {
+
+        return node;
+    }
 }
