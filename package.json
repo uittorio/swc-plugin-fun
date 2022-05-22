@@ -4,7 +4,7 @@
   "description": "I am just trying to build a plugin for swc",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/uittorio/swc-plugin-fun/issues"
   },
-  "homepage": "https://github.com/uittorio/swc-plugin-fun#readme"
+  "homepage": "https://github.com/uittorio/swc-plugin-fun#readme",
+  "dependencies": {
+    "@types/jest": "^27.5.1",
+    "jest": "^28.1.0"
+  }
 }
