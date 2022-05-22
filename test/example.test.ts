@@ -1,5 +1,11 @@
+interface HelloWorld {
+    programmingLanguage: string;
+}
 describe('Just an example', () => {
     it('is not going to work', () => {
-        expect(1).toBe(1);
+        const helloWorld: HelloWorld = {
+            programmingLanguage: 'javascript'
+        }
+        expect(helloWorld.programmingLanguage).toBe('javascript');
     });
 });
