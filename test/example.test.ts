@@ -6,6 +6,7 @@ describe('Just an example', () => {
         const helloWorld: HelloWorld = {
             programmingLanguage: 'javascript'
         }
+
         expect(helloWorld.programmingLanguage).toBe('javascript');
     });
 });

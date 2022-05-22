@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "I am just trying to build a plugin for swc",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest"
+    "test": "jest --clearCache && jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/uittorio/swc-plugin-fun#readme",
   "dependencies": {
     "@types/jest": "^27.5.1",
+    "ts-node": "^10.8.0",
     "typescript": "^4.6.4"
   },
   "devDependencies": {
